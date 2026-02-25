@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Pública ITES-IFPR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .pdf-viewer {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .pdf-viewer iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        .form-container iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+            border-radius: 4px;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta Pública</h2>
+        Em atendimento a Portaria IFPR DEAC/GR/IFPR Nº 1910, DE 26 DE setembro DE 2024, o Instituto Federal do Paraná (IFPR) convida a comunidade acadêmica e o público em geral a participar da consulta pública para a elaboração do Regimento Interno da Incubadora Tecnológica de Economia Solidária do IFPR (ITES/IFPR). A sua participação é fundamental para garantir que o regimento reflita as necessidades e expectativas de todos os envolvidos.
+                <div class="pdf-viewer">
+            <iframe src="SEI_IFPR - 3899863 - Minuta de Resolução.pdf" 
+                    title="Visualizador de PDF">
+                Seu navegador não suporta iframes. 
+                <a href="SEI_IFPR - 3899863 - Minuta de Resolução.pdf">Clique aqui para baixar o PDF</a>.
+            </iframe>
+        </div>
+
+        <h2>Formulário de Resposta</h2>
+        <!-- FORMULÁRIO GOOGLE FORMS - Substitua o src pelo link de incorporação do seu formulário -->
+        <div class="form-container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeM1tdr0ligPNHkyFq1aRReV02lZjSIIv64DAdYTzqNxkLSjA/viewform?embedded=true" 
+            title="Formulário Google" width="100%" height="800px">
+        Carregando…
+    </iframe>
+</div>
+        <div class="note">
+            <p><strong>Nota:</strong> A consulta pública estará aberta para contribuições até o dia 30 de março de 2026. Participe e ajude a construir um regimento que atenda às necessidades da nossa comunidade!</p>
+        </div>
+    </div>
+</body>
+</html>
